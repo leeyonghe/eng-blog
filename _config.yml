@@ -1,13 +1,11 @@
-title: Infrastructure Technology Blog
-author: DevOps Engineer
-email: infra-engineer@domain.com
+title: English Learning Blog
+author: English Tutor
+email: english-tutor@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  인프라스트럭처와 관련된 모든 기술을 다루는 블로그입니다.
-  클라우드, 데브옵스, 네트워킹, 보안, 모니터링 등
-  인프라 운영과 관리에 필요한 모든 정보를 제공합니다.
-  A comprehensive blog covering all infrastructure technologies including
-  cloud, DevOps, networking, security, monitoring, and everything needed
-  for infrastructure operations and management.
+  A comprehensive English learning blog covering grammar, vocabulary,
+  conversation, writing skills, and practical English usage.
+  Learn English effectively with structured lessons, examples,
+  and practical exercises for all levels from beginner to advanced.
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: <!--more--> # Custom excerpt separator
 
@@ -16,8 +14,8 @@ excerpt_separator: <!--more--> # Custom excerpt separator
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Infrastructure Engineer
-  tagline: DevOps & Cloud Infrastructure Specialist
+  name: English Tutor
+  tagline: ESL Teacher & Language Learning Specialist
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -62,7 +60,7 @@ highlighter: rouge
 permalink: /blog/:year/:month/:day/:title:output_ext
 
 # GitHub Pages settings
-baseurl: "/infra-blog"
+baseurl: "/english-blog"
 url: "https://leeyonghe.github.io"
 
 # Jekyll plugins for GitHub Pages
