@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# � Welcome to English Learning Blog
-
 Master English with confidence through comprehensive lessons, practical examples, and structured learning paths designed for all proficiency levels!
 
 ## 🎯 **Learning Categories**
@@ -14,13 +12,13 @@ Master English with confidence through comprehensive lessons, practical examples
 - Progressive grammar exercises
 - Advanced grammar patterns
 
-### � **Speaking & Conversation**  
+### **Speaking & Conversation**  
 - Daily conversation topics
 - Pronunciation guides and tips
 - Role-play scenarios
 - Speaking confidence building
 
-### � **Reading & Comprehension**
+### **Reading & Comprehension**
 - Reading strategies and techniques
 - Vocabulary building through context
 - Text analysis and discussion
