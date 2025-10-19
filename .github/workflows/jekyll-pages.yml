@@ -23,12 +23,12 @@ jobs:
 
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build --baseurl "/infra-blog"
+          bundle exec jekyll build --baseurl "/eng-blog"
         env:
           JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-main@v3
+        uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
