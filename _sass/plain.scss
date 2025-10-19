@@ -1,7 +1,7 @@
-@use "variables" as *;
-@use "ext/fonts";
-@use "ext/normalize";
-@use "syntax";
+@import "variables";
+@import "ext/fonts";
+@import "ext/normalize";
+@import "syntax";
 
 *,
 *:before,
