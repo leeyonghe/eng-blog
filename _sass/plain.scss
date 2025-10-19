@@ -1,12 +1,7 @@
-@import "ext/fonts";
-@import "ext/normalize";
-@import "syntax";
-
-$linkColor: #0a59b0;
-$mobileW: 768px;
-$smallMobileW: 480px;
-$bigScreenW: 1600px;
-$leftWidth: 280px;
+@use "variables" as *;
+@use "ext/fonts";
+@use "ext/normalize";
+@use "syntax";
 
 *,
 *:before,

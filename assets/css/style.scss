@@ -1,14 +1,8 @@
 ---
 ---
 
-@import "plain";
-@import "post-detail";
-
-{% if site.plainwhite.search %}
-  @import "search";
-{% endif %}
-
-{%- if site.plainwhite.dark_mode -%}
-  @import "toggle";
-  @import "dark";
-{%- endif -%}
+@use "plain";
+@use "post-detail";
+@use "search";
+@use "toggle";
+@use "dark";

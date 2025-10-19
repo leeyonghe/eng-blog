@@ -14,8 +14,8 @@ excerpt_separator: <!--more--> # Custom excerpt separator
 sass:
   sass_dir: _sass
 plainwhite:
-  name: English Tutor
-  tagline: ESL Teacher & Language Learning Specialist
+  name: Fulstack Developer
+  tagline: English
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
