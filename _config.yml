@@ -60,7 +60,7 @@ highlighter: rouge
 permalink: /blog/:year/:month/:day/:title:output_ext
 
 # GitHub Pages settings
-baseurl: "/english-blog"
+baseurl: "/eng-blog"
 url: "https://leeyonghe.github.io"
 
 # Jekyll plugins for GitHub Pages
