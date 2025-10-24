@@ -68,3 +68,23 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Optional site verification tokens (fill these with tokens from Google/Naver/Daum webmaster tools)
+google_site_verification: "" # e.g. abcdef1234567890
+naver_site_verification: ""
+daum_site_verification: ""
+
+# SEO Keywords - especially important for Naver/Daum
+keywords: "영어학습, 영어공부, 영어표현, 영어회화, 영어문법, 영어어휘, English learning, English study, English conversation, English grammar, English vocabulary, 일상영어, 비즈니스영어, 영어강의, 영어교육"
+
+# Social/SEO settings
+social:
+  name: "English Learning Blog"
+  links:
+    - "https://github.com/leeyonghe"
+    - "https://www.linkedin.com/in/lee-yong-hee-18912454/"
+
+# Author info for structured data
+author:
+  name: "English Tutor"
+  email: "english-tutor@domain.com"

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+# If you want to block indexing of specific folders, add them here:
+# Disallow: /private/
+
+Sitemap: {{ "" | absolute_url }}sitemap.xml

@@ -1,6 +1,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{%- seo %}
+{%- include seo.html -%}
+{%- if site.google_site_verification and site.google_site_verification != "" -%}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{%- endif -%}
+{%- if site.naver_site_verification and site.naver_site_verification != "" -%}
+<meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
+{%- endif -%}
+{%- if site.daum_site_verification and site.daum_site_verification != "" -%}
+<meta name="daum-site-verification" content="{{ site.daum_site_verification }}">
+{%- endif -%}
 <link rel="icon" type="image/png" href="{{ '/assets/portfolio.png' | relative_url }}">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
@@ -251,3 +262,8 @@
 }
 </style>
 <title>{{ page.title | default: site.title }}</title>
+
+<!-- robots meta - allow customization per-page using page.robots (e.g. 'noindex') -->
+{%- if page.robots -%}
+  <meta name="robots" content="{{ page.robots }}">
+{%- endif -%}
